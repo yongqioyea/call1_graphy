@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call1_graphy</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+
+        h2, h3, h4 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        h5, h6, p {
+          font-family: "Playfair Display";
+          letter-spacing: 2px;
+        }
+
+        h1{
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+        } 
+
+        #backPlane{
+            width:100%;
+            background-color:#c6dadf;
+            height:200px;
+            padding-top: 120px;
+        }     
+        
+    </style>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="arrow up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card w3-navbar" style="letter-spacing:4px;">
+            <a href="HomePage.html" class="w3-bar-item title-hover" >Call1_graphy</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right "> <!--hover colour 148-->                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Traditional Calligraphy styles" style="letter-spacing:4px;">Traditional Calligraphy</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="copperplate.html" class="w3-bar-item w3-button ">Copperplate Calligraphy</a>
+                      <a href="blackletter.html" class="w3-bar-item w3-button ">Blackletter Calligraphy</a>
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Modern Calligraphy styles" style="letter-spacing:4px;">Modern Calligraphy</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="#" class="w3-bar-item w3-button">Brush Calligraphy</a>
+                        <a href="bouncy.html" class="w3-bar-item w3-button">Bounce Lettering</a>
+                        <a href="faux.html" class="w3-bar-item w3-button">Faux Calligraphy</a>
+                    </div>                  
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Resources" style="letter-spacing:4px;">Resources</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="onlinefonts.html" class="w3-bar-item w3-button ">Online Fonts</a>
+                      <a href="worksheets.html" class="w3-bar-item w3-button">Worksheets</a>
+                      <a href="gallery.html" class="w3-bar-item w3-button ">Gallery</a>
+                    </div>
+                </div>
+                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <a href="contact.html" class="w3-padding-large w3-button button-hover" title="Send a Feedback" style="letter-spacing:4px;">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Header -->
+        <div id="backPlane" class="w3-display-container w3-content w3-wide">
+            <div id="title" class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1>Brush Calligraphy</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <h4>Introduction</h4>
+            <hr class="intro">
+            <div class="half-left">
+                <p style="text-align: justify;">
+                    Brush Calligraphy is a type of modern calligraphy where it is not fixed to the traditional calligraphy guidelines. Its style varies from person to person, as there are no fixed rules to it.<br><br>
+                    It is written by brush pens, using either watercolors or the brush's ink itself, not more ink dipping and messy tables &#128521; <em>And of course, you can also use your iPad if you have one!</em><br><br>
+                    Brush calligraphy works the same way as traditional calligraphy, where the alphabet strokes are made from different pressure/ angles of the pen. <br><br>
+                    It is easy, fun and beginner-friendly! 
+                    It is very popular these days where you can find it on greeting cards, packagings, Pinterest, <em>everywhere</em>! <br><br>
+                </p>
+            </div>
+            
+            <table border=1 style="float:right">
+                <tr>
+                    <td><img src="Images/brush-alpha.jpg" alt="Brush Calligraphy Alphabets" width="400px" style="float:right">
+                    </td>
+                </tr>
+            </table>
+            <div class="half-right w3-opacity""><i>Image from VectorStock.</i> </div>
+
+            <br style="clear:both">
+            <hr style="clear:both">
+
+            <h4>Tools</h4>
+            <hr width="100px">
+
+            <p>
+                To start with brush calligraphy, all you need is <mark>a piece of paper</mark> and <mark>a brush pen</mark> (which is available in many colours!) and lots of practice. 
+                If you're wondering where you can get brush pens, go check out your local stationary shop or simply search on your favourite online shopping app &#128521;
+            </p>  
+            
+            <p>
+                Here are some brush pen recommendations:
+            </p>   
+
+            <div class="row">
+                <p align = "center">
+                  <div class="w3-card image-card-lightblue">
+                        <h6>Pentel - Touch Brush Sign Pen</h6><br style="display:block; content:''; margin-top: 40px;">
+                        <p align="center">
+                            <img src="Images/pentellots2.jpg" alt="Pentel Touch Brush Sign Pen" width="100%"></p>
+                        <div style="bottom:0px">
+                            <i><p align="center">Buy from <a href="https://pentel.com.my/product-category/art-material/brush-pen/touch-brush-sign-pen/" class="w3-hover-text-blue" target="_blank">Pentel</a></p></i>
+                        </div>
+                   </div>
+                   <div class="w3-card image-card-lightblue">
+                        <h6>Tombow - Dual Brush Pen Marker</h6>
+                        <p align="center">
+                            <img src="Images/tombowcircle.jpg" alt="Tombow Dual Brush Pen Marker" width="100%"></p>
+                        <i><p align="center">Buy from <a href="https://www.stickerrificstore.com/search?type=article%2Cpage%2Cproduct&q=tombow*+ABT*+brush*+pen*" class="w3-hover-text-blue" target="_blank">Stickerrific</a></p></i>
+                    </div>
+                    <div class="w3-card image-card-lightblue">
+                        <h6>Sakura Koi - Coloring Brush Pen</h6>
+                        <p align="center" >
+                            <img src="Images/koi.jfif" alt="Koi Coloring Brush Pen" width="100%"></p>
+                        <i><p align="center">Buy from <a href="https://www.stickerrificstore.com/search?type=article%2Cpage%2Cproduct&q=sakura*+koi*" class="w3-hover-text-blue" target="_blank">Stickerrific</a></p></i>
+                    </div>
+                </p>
+            </div> 
+
+            <p style="float:left; width:65%">
+                <br>And if you want to create your own color, or simply want unlimited inks, try using <b>watercolor brushes!</b><br>
+                <i style="font-size:smaller">*Tips: you have to control your strength when using these! It may be a little frustrating at first, but beleive me, you'll be fine after some practices</i>
+            </p>
+
+            <div class="w3-card image-card-lightblue-aqBrush" >
+                <h6>Pentel - Aqua Water Brush</h6>
+                <p align="center" >
+                    <img src="Images/aquabrush.jpg" alt="Pentel Aqua Brush" width="100%"></p>
+                <i><p align="center">Buy from <a href="https://pentel.com.my/product-category/art-material/brush-pen/aquash-water-brush/" class="w3-hover-text-blue" target="_blank">Pentel</a></p></i>
+            </div>
+            
+            <br style="clear:both">
+            <hr style="clear:both">
+
+            <h4>Tutorials</h4>
+            <hr width="150px">
+
+            <p>Now after you got all the supplies needed, its time to get writing!</p>
+            <p>The basics of brush calligraphy is the same as traditional calligraphies, but there are still some things to watch out.<br>
+                From the way of holding the pens, until the angle you write the alphabets, it all affects the final result.<br><br>
+                Here are some videos that I find usefull for beginners, keep practicing and you'll get there!
+            </p>
+
+            <br>
+            <p><font size="+4">1.</font> This video talks about the basic strokes and ways to hold your pen. (the brush pen used in this video is Tombow Dual Brush Pen)</p>
+            <p align= "center">
+                <iframe width="642" height="361" src="https://www.youtube.com/embed/V8L9LDOV13w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+
+            <p><font size="+4">2.</font> This video talks about how to write aplhabets in brush calligraphy, with detailed explanation on the application of basic strokes. It is a great continuation from the previous video!<br>
+            </p>
+            <p align= "center">
+                <iframe width="642" height="361" src="https://www.youtube.com/embed/lR1wrqWgRt8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+
+            <p><font size="+4">3.</font> This video demonstrates brush calligraphy with different type of brush pens! <br>
+                <i style="font-size:smaller; padding-left: 30px;">*The last part is about <a href="/faux.html" class="w3-hover-text-blue">Faux Calligraphy</a> (not a type of brush calligraphy), where you can also find them in our website!</i></p>
+            <p align= "center">
+                <iframe width="642" height="361" src="https://www.youtube.com/embed/sBoVGqiSzr4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+            <br><br>
+
+            <p>After you mastered brush calligraphy using brush pens, try using watercolor brushes! Never limit yourself towards a fixed tool &#128521; </p>
+            <p align="center">
+                <img src="Images/aueabrushcali.jpg" alt="Brush Calligraphy with Aqua Brush" width="40%" style="float:left; margin-left: 100px;">
+                <img src="Images/watercolorcali.jpg" alt="Brush Calligraphy using Watercolor brush" width="40%">
+            </p>
+
+            <br style="clear:both">
+
+            <p align= "center" class="w3-opacity">
+                ---------*  &#128150;  &#128396; *----------
+            </p>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-large">
+        <p>@ Call1_graphy 2022</p>
+    </footer>
+    
+    
+</body>
+</html>

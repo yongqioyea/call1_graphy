@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call1_graphy</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+
+         h2, h3, h4 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        h5, h6, p {
+          font-family: "Playfair Display";
+          letter-spacing: 2px;
+        }
+
+        h1{
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+        } 
+
+        #backPlane{
+            width:100%;
+            background-color:#c6dadf;
+            height:200px;
+            padding-top: 120px;
+        }
+
+        #wrapper{
+            width:80%;
+            margin:0 auto;}       
+        
+    </style>
+
+</head>
+<body>
+
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="arrow up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } 
+        else{
+            mybutton.style.display = "none";
+        }
+        }
+
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card w3-navbar" style="letter-spacing:4px;">
+            <a href="#" class="w3-bar-item title-hover" >Call1_graphy</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right "> <!--hover colour 148-->                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Traditional Calligraphy styles" style="letter-spacing:4px;">Traditional Calligraphy</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="copperplate.html" class="w3-bar-item w3-button ">Copperplate Calligraphy</a>
+                      <a href="blackletter.html" class="w3-bar-item w3-button ">Blackletter Calligraphy</a>
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Modern Calligraphy styles" style="letter-spacing:4px;">Modern Calligraphy</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="brush.html" class="w3-bar-item w3-button">Brush Calligraphy</a>
+                        <a href="bouncy.html" class="w3-bar-item w3-button">Bounce Lettering</a>
+                        <a href="faux.html" class="w3-bar-item w3-button">Faux Calligraphy</a>
+                    </div>                 
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Resources" style="letter-spacing:4px;">Resources</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="onlinefonts.html" class="w3-bar-item w3-button ">Online Fonts</a>
+                      <a href="worksheets.html" class="w3-bar-item w3-button">Worksheets</a>
+                      <a href="gallery.html" class="w3-bar-item w3-button ">Gallery</a>
+                    </div>
+                </div>
+                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <a href="contact.html" class="w3-padding-large w3-button button-hover" title="Send a Feedback" style="letter-spacing:4px;">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper" class="w3-display-container w3-container">
+        <!-- Header -->
+        <div id="backPlane" class="w3-display-container w3-content w3-wide">
+            <div id="title" class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1>Calligraphy</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <h4>Introduction</h4>
+            <hr class="intro"> 
+            <p>
+                Western calligraphy is the art of writing practiced in the Western world, where Latin alphabets are mostly used.<br>
+                Calligraphy had been widely used and transformed a lot through the years.
+                As traditional calligraphy is mostly used for official documents, calligraphy are more common nowadays where it is applied on daily designs.  
+            </p> 
+            <p> 
+                So what is calligraphy? Calligraphy is a type of script (style of writing), that has all the alphabets in a word connected.
+                It looks like cursive writing, but is not. <br><br>
+                There are two types of calligraphies, which are <a href="#trad" class="w3-hover-text-blue">Traditional Calligraphy</a> and <a href="#mod" class="w3-hover-text-blue">Modern Calligraphy</a>.
+            </p>
+
+            <br style="clear:both">
+            <hr style="clear:both">
+            <h4 id ="trad">Traditional Calligraphy</h4>
+            <hr style="width:330px"> 
+
+            <div class="half-left">
+                <p style="text-align: justify;">
+                    Traditional Calligraphy had been widely used since a couple of centuries ago, which it is mainly used for document writing or writing letters back then. It is elegant and sophisticated to look at.<br><br>
+                    Unlike modern calligraphy styles, traditional Calligraphy has its own set of rules and one must strictly follow them. 
+                    The baselines for all of the alphabets are fixed, angles and lines must be consistent, and the letterings follows the alphabet anatomy strictly. There are no room for modifications<br><br>
+                    The most common traditional calligraphy style is Copperplate, which nowadays you can find them on wedding invitations and such.<br>
+                    Traditional calligraphies uses dip pens (either straight or slanted) and ink. You will need to constantly dip your pen nib into the ink when writing. 
+                      
+                </p>
+                <br>
+                <p style="text-align: justify;">Learn more about: <a href="copperplate.html" class="w3-hover-text-blue">Copperplate Calligraphy</a> & <a href="/blackletter.html" class="w3-hover-text-blue">Blackletter Calligraphy</a></p>
+            </div>
+            
+            <table style="float:right;">
+                <tr>
+                    <td><img src="Images/tradCalli.jpg" alt="Traditional Calligraphy" width="400" style="float:right">
+                    </td>
+                </tr>
+            </table>
+
+
+            <br style="clear:both">
+            <hr style="clear:both">
+            <h4 id="mod">Modern Calligraphy</h4>
+            <hr style="width:280px">
+
+            <table style="float:left; margin-top:50px;" >
+                <tr>
+                    <td><img src="Images/mord-calli2.jpg" alt="Modern Calligraphy" width="400">
+                    </td>
+                </tr>
+            </table>
+
+            <div style="width:50%;float:right">
+                <p style="text-align: justify;">
+                    Modern calligraphy covers tons of writing styles, which is hard to give a definition.
+                    The best way to differentiate modern calligraphy is 'any styles that are <mark>not traditional calligraphy</mark>'.<br><br>
+                    Modern calligraphy is fun, whimsical and free to modify. Unlike traditional calligraphy, modern calligraphy does not have any rules or standards to follow (only some tips and guidelines to help).<br><br>
+                    A twist is added to the traditional rules. Flourishing can be added, the alphabet baselines can be ignored, alphabets can be upright instead of slanting... 
+                    Modern calligraphy is all about expressing your own style and finding beauty in it. <br><br>
+                    Modern calligraphy can be written with all sorts of tools, brush pens, brushes, pencils and even traditional dip pens!
+                </p> 
+
+                <br>
+                <p style="text-align: justify;">Learn more about: <a href="brush.html" class="w3-hover-text-blue">Brush Calligraphy</a>, <a href="/bouncy.html" class="w3-hover-text-blue">Bounce Letterings</a> & <a href="/Assignment2.0/faux.html" class="w3-hover-text-blue">Faux Calligraphy</a></p>
+            </div>
+
+            <br style="clear:both">
+            <hr style="clear:both">
+            <h4>Differences</h4>
+            <hr style="width:180px">
+            <p>Here are some of the differences between Traditional calligraphy and Modern Calligraphy. Get to know their differnces and pick one that suits you more!</p>
+
+            <div style="float:left; width:55%">
+                <p><span class="num-mid">1.</span> Traditional: Rules to follow strictly<br>
+                    &nbsp;  &nbsp;  &nbsp;Modern: Free to twist and play around with the letters
+                </p> 
+                <p><span class="num-mid">2.</span> Traditional: Elegant, Sophisticated<br>
+                    &nbsp;  &nbsp;  &nbsp;Modern: Fun, Whimsical
+                </p>
+                <p><span class="num-mid">3.</span> Traditional: More Slanted scripts<br>
+                    &nbsp;  &nbsp;  &nbsp;Modern: More upright, no fixed angles
+                </p>
+                <p><span class="num-mid">4.</span> Traditional: Consistant lines, spacings, grids<br>
+                    &nbsp;  &nbsp;  &nbsp;Modern: Varies according to writers' preferance / purpose
+                </p>
+                <p><span class="num-mid">5.</span>Traditional: Basic letterforms<br>
+                    &nbsp;  &nbsp;  &nbsp;Modern: Modern Letterforms
+                </p>
+                <p><span class="num-mid">6.</span>Traditional: Gives a more formal impression<br>
+                    &nbsp;  &nbsp;  &nbsp;Modern: Can be used for various purposes/ media
+                </p>
+                <p><span class="num-mid">7.</span>Traditional: Paper-based<br>
+                    &nbsp;  &nbsp;  &nbsp;Modern: Can be written on paper/ digitally
+                </p>
+            </div>
+
+            <table style="float:right; margin-top:90px;" >
+                <tr>
+                    <td><img src="Images/tradVSmod.png" alt="Differene Between Traditional &Modern Calligraphy" width="400">
+                    </td>
+                </tr>
+            </table>
+        </div>
+         
+
+    </div>
+
+
+    <br style="clear:both">
+    <!--marking the end of the page-->
+    <p class="w3-opacity text-align-center">        ---------*  &#128150;  &#128396; *----------    </p>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-large">
+        <p>@ Call1_graphy 2022</p>
+    </footer>
+    
+    
+</body>
+</html>

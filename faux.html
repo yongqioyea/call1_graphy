@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call1_graphy</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+
+        h2, h3, h4 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        h5, h6, p {
+          font-family: "Playfair Display";
+          letter-spacing: 2px;
+        }
+        h1{
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+        } 
+
+        #backPlane{
+            width:100%;
+            background-color:#c6dadf;
+            height:200px;
+            padding-top: 120px;
+        }
+
+        #wrapper{
+            width:80%;
+            margin:0 auto;} 
+        
+        
+    </style>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="arrow up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card w3-navbar" style="letter-spacing:4px;">
+            <a href="HomePage.html" class="w3-bar-item title-hover" >Call1_graphy</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right "> <!--hover colour 148-->                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Traditional Calligraphy styles" style="letter-spacing:4px;">Traditional Calligraphy</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="copperplate.html" class="w3-bar-item w3-button ">Copperplate Calligraphy</a>
+                      <a href="blackletter.html" class="w3-bar-item w3-button ">Blackletter Calligraphy</a>
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Modern Calligraphy styles" style="letter-spacing:4px;">Modern Calligraphy</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="brush.html" class="w3-bar-item w3-button">Brush Calligraphy</a>
+                        <a href="bouncy.html" class="w3-bar-item w3-button">Bounce Lettering</a>
+                        <a href="#" class="w3-bar-item w3-button">Faux Calligraphy</a>
+                    </div>                  
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Resources" style="letter-spacing:4px;">Resources</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="onlinefonts.html" class="w3-bar-item w3-button ">Online Fonts</a>
+                      <a href="worksheets.html" class="w3-bar-item w3-button">Worksheets</a>
+                      <a href="gallery.html" class="w3-bar-item w3-button ">Gallery</a>
+                    </div>
+                </div>
+                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <a href="contact.html" class="w3-padding-large w3-button button-hover" title="Send a Feedback" style="letter-spacing:4px;">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Header -->
+        <div id="backPlane" class="w3-display-container w3-content w3-wide">
+            <div id="title" class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1>Faux Calligraphy</h1>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <h4>Introduction</h4>
+            <hr class="intro">
+
+            <p>  
+                Faux calligraphy is just like it's name, is a type of 'fake' calligraphy.
+                It may look alike modern calligraphy, but the way we write both is very different.<br><br>
+                The theory behind faux calligraphy can be applied to any other fonts, even your normal hand writings!<br>
+                <i style="font-size:smaller">If you want to find out other font styles that uses this theory, try searching <b><mark>Faux Lettering</b></mark>! </i><br> 
+                
+            </p>
+
+            <table border=1 width="70%" align="center">
+                <tr>
+                    <td><img src="Images/Improved-brush-pen-image-1-of-2-1536x768.jpg" alt="Faux Calligraphy" width="100%">
+                    </td>
+                </tr>
+            </table>
+            <div class="w3-opacity text-align-center" >
+                <i>Image from Lettering Daily.</i>
+            </div>
+
+            <p>
+                <br>We 'create' and 'draw' out the strokes for faux calligraphy, where we can decide the pressure, strokes and design all by ourselves! Cool huh? <br><br>
+                Basically, we usually pressure our pens when writing downstrokes for regular calligraphy but instead of writing it, we 'draw' the stokes in faux calligraphy. Just simply <mark>draw another stroke</mark> beside the downstroke and <em>DONE !</em><br>
+                <br>As it is rather easy to learn and apply, many beginners start their journey here! So if you feel like learning calligraphy but don't want to buy extra calligraphy tools, try this!<br><br>
+                We'll include tutorial videos later so let's get to know the tools you need first.
+            </p>
+
+            <br>
+            <hr>
+            <h4>Tools</h4>
+            <hr width="100px">
+            <div style="float:left ; width:35%">
+                <p >
+                    As faux calligraphy is not technically a type of calligraphy, there are NO fixed tools or medium for it.
+                    You can write using your daily stationeries. Chalks, pencils, pens, markers, brush pens, you name it.
+                </p>
+                <p>For better practicing purposes, feel free to download the <a href="worksheets.html#faux-temp" class="w3-hover-text-blue">worksheet</a> with gridlines.</p>
+            </div>
+                <p align="center">
+                <img src="Images/chalk-lettering.jpg" alt="Chalk Lettering" height="400px" style="padding:20px">
+                <img src="Images/faux-calli.jpg" alt="Faux Calligraphy Quote" height="400px" style="padding:20px">
+            </p>
+            
+
+            <br style="clear:both">
+            <hr style="clear:both">
+
+            <h4>Tutorials</h4>
+            <hr width="150px">
+
+            <p>The basics of faux calligraphy is the same as regular calligraphy, except that there is <mark>no pressure change</mark> for downstrokes. <br>
+                <br>In other words, faux calligraphy is more like turning cursive writings into calligraphy style.
+            </p>
+
+            <br>
+            <p> <font size="+4">1.</font> This video shows a very basic explanation on how faux calligraphy is written compared to regular calligraphies.</p>
+            <p align= "center">
+                <iframe width="642" height="361" src="https://www.youtube.com/embed/vIUx5fauDCI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+
+            <br style="clear:both">
+            <p> <font size="+4">2.</font> This video below demonstrates on how to write faux calligraphy alphabets from tracing(pencil) to outlining and filling in (markers).</p>
+            <p align= "center">
+                <iframe width="642" height="361" src="https://www.youtube.com/embed/x1RfA3eQI-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+
+            <hr width="25%">
+            <p> Faux calligraphy can be used in various designs, common ones are chalkboard menus, wedding mirrors, bullet journals, and such.<br>
+                Whenever you want to add some design or artistic touch onto your creations, faux calligraphy is definately your best choice.<br><br>
+                Keep experimenting and have fun! 
+            </p>
+        </div>
+    </div>
+
+    <!--marking the end of the page-->
+    <p align= "center" class="w3-opacity">        ---------*  &#128150;  &#128396; *----------    </p>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-large">
+        <p>@ Call1_graphy 2022</p>
+    </footer>
+    
+    
+</body>
+</html>

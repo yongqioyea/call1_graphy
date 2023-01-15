@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call1_graphy</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Birthstone+Bounce:wght@500&family=Dancing+Script&family=Great+Vibes&family=Herr+Von+Muellerhoff&family=Homemade+Apple&family=Mea+Culpa&family=Meddon&family=Monsieur+La+Doulaise&family=MonteCarlo&family=Mrs+Saint+Delafield&family=Parisienne&family=Pinyon+Script&family=Praise&family=Rochester&family=Style+Script&family=UnifrakturMaguntia&family=Vibur&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+
+        h2, h3, h4 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        h5, h6, p {
+          font-family: "Playfair Display";
+          letter-spacing: 2px;
+        }
+
+        h1{
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+        } 
+
+        #backPlane{
+            width:100%;
+            background-color:#c6dadf;
+            height:200px;
+            padding-top: 120px;
+        }
+
+        #wrapper{
+            width:80%;
+            margin:0 auto;} 
+        
+        #alex-brush{font-family: 'Alex Brush', cursive;}
+        #allura{font-family: 'Allura', cursive;}
+        #birthstone{font-family: 'Birthstone Bounce', cursive;}
+        #dancing-script{font-family: 'Dancing Script', cursive;}
+        #great-vibes{font-family: 'Great Vibes', cursive;}
+        #herrvon{font-family: 'Herr Von Muellerhoff', cursive;}
+        #homemade-apple{font-family: 'Homemade Apple', cursive;}
+        #meaculpa{font-family: 'Mea Culpa', cursive;}
+        #meddon{font-family: 'Meddon', cursive;}
+        #monsieur{font-family: 'Monsieur La Doulaise', cursive;}
+        #montecarlo{font-family: 'MonteCarlo', cursive;}
+        #mrsSaint{font-family: 'Mrs Saint Delafield', cursive;}
+        #parisienne{font-family: 'Parisienne', cursive;}
+        #pinyon{font-family: 'Pinyon Script', cursive;}
+        #praise{font-family: 'Praise', cursive;}
+        #rochester{font-family: 'Rochester', cursive;}
+        #style-script{font-family: 'Style Script', cursive;}
+        #unifraktur{font-family: 'UnifrakturMaguntia', cursive;}
+        #vibur{font-family: 'Vibur', cursive;}
+
+    </style>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="arrow up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card w3-navbar" style="letter-spacing:4px;">
+            <a href="HomePage.html" class="w3-bar-item title-hover" >Call1_graphy</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right "> <!--hover colour 148-->                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Traditional Calligraphy styles" style="letter-spacing:4px;">Traditional Calligraphy</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="copperplate.html" class="w3-bar-item w3-button ">Copperplate Calligraphy</a>
+                      <a href="blackletter.html" class="w3-bar-item w3-button ">Blackletter Calligraphy</a>
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Modern Calligraphy styles" style="letter-spacing:4px;">Modern Calligraphy</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="brush.html" class="w3-bar-item w3-button">Brush Calligraphy</a>
+                        <a href="bouncy.html" class="w3-bar-item w3-button">Bounce Lettering</a>
+                        <a href="faux.html" class="w3-bar-item w3-button">Faux Calligraphy</a>
+                    </div>                  
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Resources" style="letter-spacing:4px;">Resources</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="#" class="w3-bar-item w3-button ">Online Fonts</a>
+                      <a href="worksheets.html" class="w3-bar-item w3-button">Worksheets</a>
+                      <a href="gallery.html" class="w3-bar-item w3-button ">Gallery</a>
+                    </div>
+                </div>
+                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <a href="contact.html" class="w3-padding-large w3-button button-hover" title="Send a Feedback" style="letter-spacing:4px;">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">       
+        <!-- Header -->
+        <div id="backPlane" class="w3-display-container w3-content w3-wide">
+            <div id="title" class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1>Online Fonts</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <!-- <h4>Introduction</h4>
+            <hr width="190px"> -->
+            <p>
+                Here are some fonts for you if you want to add that caligraphic touch to your own digital creation &#128187; (websites, posters, anything!!).<br><br> 
+                They're from Google Fonts which are all free to use. The fonts are combined of both traditional and modern calligraphy, test yourself and see if you can differentiate it!<br><br>
+                Let's start digging and find some good fonts shall we?
+            </p> <hr>
+
+            <h4>Fonts</h4>
+            <hr style="width:110px">
+            <p><span class="num-mid">1.</span> Alex Brush (Download here @<a href="https://fonts.google.com/specimen/Alex+Brush" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="alex-brush" style="font-size:30px">Alex Brush - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">2.</span>Allura (Download here @<a href="https://fonts.google.com/specimen/Allura" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="allura" style="font-size:30px">Allura - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">3.</span> Birthstone Bounce (Download here @<a href="https://fonts.google.com/specimen/Birthstone+Bounce" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="birthstone" style="font-size:30px">Birthstone Bounce - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">4.</span> Dancing Script (Download here @<a href="https://fonts.google.com/specimen/Dancing+Script" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="dancing-script" style="font-size:30px">Dancing Script - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">5.</span> Great Vibes (Download here @<a href="https://fonts.google.com/specimen/Great+Vibes" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="great-vibes" style="font-size:30px">Great Vibes - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">6.</span> Herr Von Muellerhoff (Download here @<a href="https://fonts.google.com/specimen/Herr+Von+Muellerhoff" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="herrvon" style="font-size:30px">Herr Von Muellerhoff - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">7.</span> Homemade Apple (Download here @<a href="https://fonts.google.com/specimen/Homemade+Apple" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >            
+                <p id="homemade-apple" style="font-size:30px">Homemade Apple - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">8.</span> Mea Culpa (Download here @<a href="https://fonts.google.com/specimen/Mea+Culpa" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="meaculpa" style="font-size:30px">Mea Culpa - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">9.</span> Meddon (Download here @<a href="https://fonts.google.com/specimen/Meddon" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="meddon" style="font-size:30px">Meddon - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">10.</span> Monsieur La Doulaise (Download here @<a href="https://fonts.google.com/specimen/Monsieur+La+Doulaise" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="monsieur" style="font-size:30px">Monsieur La Doulaise - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">11.</span> MonteCarlo (Download here @<a href="https://fonts.google.com/specimen/MonteCarlo" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="montecarlo" style="font-size:30px">MonteCarlo - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">12.</span> Mrs Saint Delafield (Download here @<a href="https://fonts.google.com/specimen/Mrs+Saint+Delafield" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="mrsSaint" style="font-size:30px">Mrs Saint Delafield - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">13.</span> Parisienne (Download here @<a href="https://fonts.google.com/specimen/Parisienne" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="parisienne" style="font-size:30px">Parisienne - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">14.</span> Pinyon Script (Download here @<a href="https://fonts.google.com/specimen/Pinyon+Script" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="pinyon" style="font-size:30px">Pinyon Script - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">15.</span> Praise (Download here @<a href="https://fonts.google.com/specimen/Praise" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="praise" style="font-size:30px">Praise - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">16.</span> Rochester (Download here @<a href="https://fonts.google.com/specimen/Rochester" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="rochester" style="font-size:30px">Rochester - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">17.</span> Style Script (Download here @<a href="https://fonts.google.com/specimen/Style+Script" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="style-script" style="font-size:30px">Style Script - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">18.</span> UnifrakturMaguntia (Download here @<a href="https://fonts.google.com/specimen/UnifrakturMaguntia" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="unifraktur" style="font-size:30px">UnifrakturMaguntia - Calligraphy is fun!</p>
+            </div>
+
+            <p style="clear:both"><span class="num-mid">19.</span> Vibur (Download here @<a href="https://fonts.google.com/specimen/Vibur" class="w3-hover-text-blue" target="_blank">Google Fonts</a>)</p>
+            <div class="w3-card  font-card" >                
+                <p id="vibur" style="font-size:30px">Vibur - Calligraphy is fun!</p>
+            </div>
+        </div> 
+
+    </div>
+
+    <br style="clear:both">
+    <p class="w3-opacity text-align-center">
+        ---------*  &#128150;  &#128396; *----------
+    </p>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-large">
+        <p>@ Call1_graphy 2022</p>
+    </footer>
+    
+    
+</body>
+</html>

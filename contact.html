@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call1_graphy</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+
+        h2, h3, h4 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        h5, h6, p {
+          font-family: "Playfair Display";
+          letter-spacing: 2px;
+        }
+
+        h1{
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+        } 
+
+        #backPlane{
+            width:100%;
+            background-color:#c6dadf;
+            height:200px;
+            padding-top: 120px;
+        }
+
+        
+        
+    </style>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="arrow up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card w3-navbar" style="letter-spacing:4px;">
+            <a href="HomePage.html" class="w3-bar-item title-hover" >Call1_graphy</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right "> <!--hover colour 148-->                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Traditional Calligraphy styles" style="letter-spacing:4px;">Traditional Calligraphy</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="copperplate.html" class="w3-bar-item w3-button ">Copperplate Calligraphy</a>
+                      <a href="blackletter.html" class="w3-bar-item w3-button ">Blackletter Calligraphy</a>
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Modern Calligraphy styles" style="letter-spacing:4px;">Modern Calligraphy</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="brush.html" class="w3-bar-item w3-button">Brush Calligraphy</a>
+                        <a href="bouncy.html" class="w3-bar-item w3-button">Bounce Lettering</a>
+                        <a href="faux.html" class="w3-bar-item w3-button">Faux Calligraphy</a>
+                    </div>                  
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Resources" style="letter-spacing:4px;">Resources</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="onlinefonts.html" class="w3-bar-item w3-button ">Online Fonts</a>
+                      <a href="worksheets.html" class="w3-bar-item w3-button">Worksheets</a>
+                      <a href="gallery.html" class="w3-bar-item w3-button ">Gallery</a>
+                    </div>
+                </div>
+                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <a href="#" class="w3-padding-large w3-button button-hover" title="Send a Feedback" style="letter-spacing:4px;">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Header -->
+        <div id="backPlane" class="w3-display-container w3-content w3-wide">
+            <div id="title" class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1>Contact Us</h1>
+            </div>
+        </div>
+
+        <!-- <hr> -->
+        <div class="content">
+            <h4>Contact Us</h4>
+            <hr style="width:170px">
+
+            <div class="half-left">
+                <p>Thank you for visiting our site! It means a lot to us &#128150;<br><br>
+                   For any enquiries, collaborations, suggestions, etc... You can reach out to us through the following ways!<br><br>
+                   Don't be shy, we're more than happy to have you here.</p><br>
+
+                <table style="width:100%;">
+                    <tr>
+                        <td style="padding-left:20px;">
+                            <div style="line-height:200%;letter-spacing: 2px; font-size: 16px;">
+                                <p>Service hours: 9.00AM - 5.00PM (Mon-Fri)<br>
+                                    &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                    9.00AM - 12PM (Weekends)</p>
+                                    <hr style="width:25%">
+                                <p>Contact Number: 03-9973 1226<br> Email: call1-graphy@mail.com<br> Location: Based in Kuala Lumpur, Malaysia</p>
+                                </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <p style="text-align:right">
+                <img src="Images/contact-us-illust.png" alt="Contact Us Illustration" style="padding-top:90px; width:40%">
+            </p>
+           
+
+
+            <br style="clear:both"><br>
+            <hr style="clear:both">
+            <h4>Feedback</h4>
+            <hr style="width:150px">
+
+            <p>
+                Anything on your mind? We're happy to know!! Feel free to send us a feedback and we'll do better next time!
+            </p>         
+
+            <div class="half-left FB-img">
+                <img src="Images/FeedbackIllustration.png" alt="Feedback Illustration" style="width:90%"></div>
+
+            <div id="form-background">            
+
+                <div class="half-right">   
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your name here...">
+                    <br><br>
+                    <label for="email"> Email:</label>
+                    <input type="text" id="email" placeholder="Your email here...">
+                    <br><br>
+                    <label for="comment"> Comment:</label>
+                    <textarea id="comment" cols="40" rows="5" placeholder="Write your feedbacks here!"></textarea>
+                    <!-- <input type="text" id="comment" placeholder="Write your feedbacks here!"> -->
+                    <br><br>
+                    <input type="submit" value="Submit!" onclick="notice()">
+                </div> 
+
+            </div>
+
+            <script>
+                function notice(){
+                    alert("Feedback sent! Thank you!!");
+                    document.getElementById ("name").value="";
+                    document.getElementById("email").value="";
+                    document.getElementById("comment").value="";
+                }
+            </script>
+        </div>
+        
+    </div>
+
+    <br style="clear:both">
+    <p class="w3-opacity text-align-center">
+        ---------*  &#128150;  &#128396; *----------
+    </p>
+
+    
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-large">
+        <p>@ Call1_graphy 2022</p>
+    </footer>
+
+</body>
+</html>

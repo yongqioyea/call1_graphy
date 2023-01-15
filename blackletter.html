@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call1_graphy</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+
+        h2, h3, h4 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        h5, h6, p {
+          font-family: "Playfair Display";
+          letter-spacing: 2px;
+        }
+
+        h1{
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+        } 
+
+        #backPlane{
+            width:100%;
+            background-color:#c6dadf;
+            height:200px;
+            padding-top: 120px;
+        }
+
+        #wrapper{
+            width:80%;
+            margin:0 auto;} 
+        
+        
+    </style>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="arrow up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card w3-navbar" style="letter-spacing:4px;">
+            <a href="HomePage.html" class="w3-bar-item title-hover" >Call1_graphy</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right "> <!--hover colour 148-->                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Traditional Calligraphy styles" style="letter-spacing:4px;">Traditional Calligraphy</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="copperplate.html" class="w3-bar-item w3-button ">Copperplate Calligraphy</a>
+                      <a href="#" class="w3-bar-item w3-button ">Blackletter Calligraphy</a>
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Modern Calligraphy styles" style="letter-spacing:4px;">Modern Calligraphy</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="brush.html" class="w3-bar-item w3-button">Brush Calligraphy</a>
+                        <a href="bouncy.html" class="w3-bar-item w3-button">Bounce Lettering</a>
+                        <a href="faux.html" class="w3-bar-item w3-button">Faux Calligraphy</a>
+                    </div>                  
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Resources" style="letter-spacing:4px;">Resources</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="onlinefonts.html" class="w3-bar-item w3-button ">Online Fonts</a>
+                      <a href="worksheets.html" class="w3-bar-item w3-button">Worksheets</a>
+                      <a href="gallery.html" class="w3-bar-item w3-button ">Gallery</a>
+                    </div>
+                </div>
+                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <a href="contact.html" class="w3-padding-large w3-button button-hover" title="Send a Feedback" style="letter-spacing:4px;">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Header -->
+        <div id="backPlane" class="w3-display-container w3-content w3-wide">
+            <div id="title" class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1>Blackletter Calligraphy</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <h4>Introduction</h4>
+            <hr class="intro"> 
+            <p>You might be familiar with Blackletter Calligraphy style, or you might have seen them in the movies which it is used as the font for newspaper titles; but did you know that it is also a type of calligraphy?<br><br>
+                Blackletter Calligraphy is a type of <mark>Gothic script</mark>, where it has both very thick and very thin lines. 
+                It is widely used on printed books back then, and nowadays you can see people getting tattoos in this script. <br><br>
+                Unlike regular calligraphy styles which are smooth, cursive and elegant, Blackletter Calligraphy is edgy and bold. There are 4 styles of Blackletter which is shown below.<br>
+            </p>
+            
+            <table align="center">
+                <tr>
+                    <td><img src="Images/blackletter-types.jpg" alt="Blackletter Styles" >
+                    </td>
+                </tr>
+            </table>
+
+            <br style="clear:both">
+            <hr style="clear:both">
+
+            <h4>Tools</h4>
+            <hr width="100px">
+            <p> As Blackletter is different than other styles, the tools needed for it are also slightly different. <br>
+                Here are some of the options you can choose between.<em>*You don't need to buy all of them, <mark>pick one</mark> that suits you most and you're good to go!</em>
+            </p>
+            
+            <div style="float:left; width:60%">
+                <p><span class="num-mid">1. </span>Parallel Pens</p>
+                <p> Unlike other pens, Parallel pen has a flat end where it will be the width of your stroke. The most recommended parallel pen is the Pilot Parallel Pen, which is available in 6 sizes.</p>
+            </div>
+
+            <div class="w3-card image-card-nofixed" style="float:right">
+                <h6>Pilot - Parallel Calligraphy Pen</h6><br style="display:block; content:'';">
+                <p class="text-align-center">
+                    <img src="Images/pilot-parallel.jpg" alt="Pentel Touch Brush Sign Pen" width="100%"></p>
+                <div style="bottom:0px">
+                    <p class="text-align-center"><i>Buy from <a href="https://www.stickerrificstore.com/products/pilot-parallel-calligraphy-pen?_pos=1&_sid=4a6785ef5&_ss=r" class="w3-hover-text-blue" target="_blank">Stickerrific</a></i></p>
+                </div>
+           </div>        
+
+           <br style="clear:both">
+           <br>
+           <div style="float:left; width:60%">
+                <p><span class="num-mid">2. </span>Pen Nibs</p>
+                <p> There are still flat-pen nibs that work with a normal pen holder. Make sure that the nib is flat, not pointed(which is used for Copperplate Calligraphy)<br>
+                    <em>*Note that flat pen nibs work better with straight nib holders, oblique nib holders are not encouraged</em>
+                </p>
+            </div>
+
+            <div class="w3-card image-card-nofixed" style="float:right">
+                <h6>Speedball C - Flat Nibs</h6><br style="display:block; content:'';">
+                <p class="text-align-center">
+                    <img src="Images/blackletter-nibs.jpg" alt="Pentel Touch Brush Sign Pen" width="100%"></p>
+                <div style="bottom:0px">
+                    <p class="text-align-center"><i>Buy from <a href="https://www.stickerrificstore.com/collections/nibs/products/speedball-c-flat-nibs" class="w3-hover-text-blue" target="_blank">Stickerrific</a></i></p>
+                </div>
+           </div>
+
+           <br style="clear:both">
+           <br>
+            <p><span class="num-mid">3. </span>Pencils!!</p>
+            <p> If you're still not sure if Blackletter is 'your thing', and don't want to spend any money buying those pens, try using pencils!! 
+                There will be a tutorial video on teaching you how to write Blackletter Calligraphy using pencils.
+            </p>
+        
+
+            <br style="clear:both">
+            <hr style="clear:both">
+
+            <h4>Tutorials</h4>
+            <hr width="150px">
+
+            <p>After getting those pens, let's get started! <br><br> 
+                As Blackletter Calligraphy may be slightly tougher, make sure you start on the right path! 
+                Check out this template <a href="worksheets.html#blackletter-temp" class="w3-hover-text-blue">here</a> for practicing purpose!
+            </p>
+
+        
+
+            <p><span class="num-lar">1.</span> This is the video explains on how to do Blackletter Calligraphy with pencils.</p>
+            <p class="text-align-center">
+                <iframe width="755" height="425" src="https://www.youtube.com/embed/HPkS4Do5X2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+
+            <p><span class="num-lar">2.</span> This video talks about the basic strokes and some of the lowercase alphabets in Blackletter Calligraphy.</p>
+            <p class="text-align-center">
+                <iframe width="637" height="361" src="https://www.youtube.com/embed/UZzWvFes5yg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+
+            <p><span class="num-lar">3.</span> This video demonstrated on lowercase alphabets based on the alphabet types.</p>
+            <p class="text-align-center">
+                <iframe width="642" height="361" src="https://www.youtube.com/embed/lopPcqoZHq4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+
+            <p><span class="num-lar">4.</span> This video shows how to write uppercase alphabets in Blackletter Calligraphy</p>
+            <p class="text-align-center">
+                <iframe width="637" height="361" src="https://www.youtube.com/embed/6qJug7AfnRI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+            </p>
+            
+            <br style="clear:both"><br>
+            <hr width="25%">
+
+            <p>Hope you enjoyed this page of Blackletter Calligraphy! 
+                Although it is not as popular compared to other calligraphy styles, Blackletter is still a unique yet aesthetic style. </p>      
+            
+        </div>  
+
+    </div>
+
+    <br style="clear:both">
+    <!--marking the end of the page-->
+    <p class="w3-opacity text-align-center">        ---------*  &#128150;  &#128396; *----------    </p>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-large">
+        <p>@ Call1_graphy 2022</p>
+    </footer>
+    
+    
+</body>
+</html>

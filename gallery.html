@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call1_graphy</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+
+        h2, h3, h4 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        h5, h6, p {
+          font-family: "Playfair Display";
+          letter-spacing: 2px;
+        }
+
+        h1{
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+        } 
+
+        #backPlane{
+            width:100%;
+            background-color:#c6dadf;
+            height:200px;
+            padding-top: 120px;
+        }
+
+        #wrapper{
+            width:80%;
+            margin:0 auto;} 
+        
+    </style>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="arrow up"></i></button>
+    <script>
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        //20 for 20px
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        //onclick go back top
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card w3-navbar" style="letter-spacing:4px;">
+            <a href="HomePage.html" class="w3-bar-item title-hover" >Call1_graphy</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right "> <!--hover colour 148-->                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Traditional Calligraphy styles" style="letter-spacing:4px;">Traditional Calligraphy</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="copperplate.html" class="w3-bar-item w3-button ">Copperplate Calligraphy</a>
+                      <a href="blackletter.html" class="w3-bar-item w3-button ">Blackletter Calligraphy</a>
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Modern Calligraphy styles" style="letter-spacing:4px;">Modern Calligraphy</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="brush.html" class="w3-bar-item w3-button">Brush Calligraphy</a>
+                        <a href="bouncy.html" class="w3-bar-item w3-button">Bounce Lettering</a>
+                        <a href="faux.html" class="w3-bar-item w3-button">Faux Calligraphy</a>
+                    </div>                  
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Resources" style="letter-spacing:4px;">Resources</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="onlinefonts.html" class="w3-bar-item w3-button ">Online Fonts</a>
+                      <a href="worksheets.html" class="w3-bar-item w3-button">Worksheets</a>
+                      <a href="#" class="w3-bar-item w3-button ">Gallery</a>
+                    </div>
+                </div>
+                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <a href="contact.html" class="w3-padding-large w3-button button-hover" title="Send a Feedback" style="letter-spacing:4px;">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Header -->
+        <div id="backPlane" class="w3-display-container w3-content w3-wide">
+            <div id="title" class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1>Gallery</h1>
+            </div>
+        </div>
+
+        <div class="content">
+
+            <h4>Introduction</h4>
+            <hr class="intro">
+            <p>
+                Here are some of the calligraphers that I personally look up to. Check them up and hopefully they inspire you in your calligraphy journey!<br>
+                <em>*All images are taken from their social media.</em>
+            </p>
+
+            <p><span class="num-lar">1.</span> Sharon Tan (@<a href="https://www.instagram.com/ronnycakes/" class="w3-hover-text-blue" target="_blank">ronnycakes</a>) </p>
+            <div class="text-align-center">
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/ronnycakes/gold-calli.jpg" alt="Calligraphy by ronnycakes" style="width:100%">
+                    </p></div>
+                </div> 
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/ronnycakes/brush-alli.jpg" alt="Calligraphy by ronnycakes" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/ronnycakes/brush-mod-calli.jpg" alt="Calligraphy by ronnycakes" style="width:100%">
+                    </p></div>
+                </div> 
+
+                <br style="clear:both"><br>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/ronnycakes/brush-mod-calli2.jpg" alt="Calligraphy by ronnycakes" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/ronnycakes/copp-calli.jpg" alt="Calligraphy by ronnycakes" style="width:100%">
+                    </p></div>
+                </div>
+            </div>
+            <br style="clear:both"><br>
+
+            <p><span class="num-lar">2.</span> Samantha C (@<a href="https://www.instagram.com/woodnink/" class="w3-hover-text-blue" target="_blank">woodnink</a>) </p>
+            <div class="text-align-center">
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/woodnink/chalk-art.jpg" alt="Calligraphy by Woodnink" style="width:100%">
+                    </p></div>
+                </div> 
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/woodnink/clear-vision.jpg" alt="Calligraphy by Woodnink" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/woodnink/copp-calli.jpg" alt="Calligraphy by Woodnink" style="width:100%">
+                    </p></div>
+                </div> 
+
+                <br style="clear:both"><br>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/woodnink/merryxmas.jpg" alt="Calligraphy by Woodnink" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/woodnink/mural-art.jpg" alt="Calligraphy by Woodnink" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/woodnink/tree-chalk.jpg" alt="Calligraphy by Woodnink" style="width:100%">
+                    </p></div>
+                </div>
+            </div>
+            <br style="clear:both"><br>
+
+            <p><span class="num-lar">3.</span> Kelly (@<a href="https://www.instagram.com/frickinkelly/" class="w3-hover-text-blue" target="_blank">frickinkelly</a>) </p>
+            <div class="text-align-center">
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/frickinkelly/copp-calli.jpg" alt="Calligraphy by frickinkelly" style="width:100%">
+                    </p></div>
+                </div> 
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/frickinkelly/mord-calli.jpg" alt="Calligraphy by frickinkelly" style="width:100%">
+                    </p></div>
+                </div> 
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/frickinkelly/valentines-card.jpg" alt="Calligraphy by frickinkelly" style="width:100%">
+                    </p></div>
+                </div> 
+
+                <br style="clear:both"><br>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/frickinkelly/wine.jpg" alt="Calligraphy by frickinkelly" style="width:100%">
+                    </p></div>
+                </div>                 
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/frickinkelly/wedding-mirror.jpg" alt="Calligraphy by frickinkelly" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/frickinkelly/wedding.jpg" alt="Calligraphy by frickinkelly" style="width:100%">
+                    </p></div>
+                </div>  
+
+                <br style="clear:both"><br>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/frickinkelly/valentines-red.jpg" alt="Calligraphy by frickinkelly" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/frickinkelly/xmas-card.jpg" alt="Calligraphy by frickinkelly" style="width:100%">
+                    </p></div>
+                </div>
+            </div>
+            <br style="clear:both"><br>
+
+            <p><span class="num-lar">4.</span> Lewind (@<a href="https://www.instagram.com/lewind_calliholic/" class="w3-hover-text-blue" target="_blank">lewind_calliholic</a>) </p>
+            <div class="text-align-center">
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/blacklet.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div> 
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/callli.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div> 
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/drawing.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div> 
+
+                <br style="clear:both"><br>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/ipad.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div>               
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/longchamp.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/menu-bnw.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div>  
+
+                <br style="clear:both"><br>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/name-calli.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/waterclr.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div>
+                <div class=" image-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/lewind/xmas.jpg" alt="Calligraphy by lewind_calliholic" style="width:100%">
+                    </p></div>
+                </div>
+            </div>
+            <br style="clear:both"><br>
+
+        </div>
+
+    </div>
+
+    <br style="clear:both">
+    <!--marking the end of the page-->
+    <p class="w3-opacity text-align-center">        ---------*  &#128150;  &#128396; *----------    </p>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-large">
+        <p>@ Call1_graphy 2022</p>
+    </footer>
+    
+    
+</body>
+</html>

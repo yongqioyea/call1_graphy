@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Call1_graphy</title>
+    <link rel="shortcut icon" href="Images/logo.png" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet" href="w3.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+
+    <style>
+        body {font-family: "Times New Roman", Georgia, Serif;}
+
+        h2, h3, h4 {
+          font-family: "Playfair Display";
+          letter-spacing: 5px;
+        }
+
+        h5, h6, p {
+          font-family: "Playfair Display";
+          letter-spacing: 2px;
+        }
+
+        h1{
+            font-family: 'Great Vibes', cursive;
+            font-size: 40px;
+        } 
+
+        #backPlane{
+            width:100%;
+            background-color:#c6dadf;
+            height:200px;
+            padding-top: 120px;
+        }
+
+        #wrapper{
+            width:80%;
+            margin:0 auto;} 
+        
+        
+    </style>
+
+</head>
+<body>
+    <button onclick="topFunction()" id="topBtn" title="Go to top"><i class="arrow up"></i></button>
+    <script>
+        //Get the button
+        var mybutton = document.getElementById("topBtn");
+
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+
+        function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+        } else {
+            mybutton.style.display = "none";
+        }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+        }
+    </script>
+
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar w3-white w3-padding w3-card w3-navbar" style="letter-spacing:4px;">
+            <a href="HomePage.html" class="w3-bar-item title-hover" >Call1_graphy</a>
+            <!-- Right-sided navbar links. Hide them on small screens -->
+            <div class="w3-right "> <!--hover colour 148-->                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Traditional Calligraphy styles" style="letter-spacing:4px;">Traditional Calligraphy</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="copperplate.html" class="w3-bar-item w3-button ">Copperplate Calligraphy</a>
+                      <a href="blackletter.html" class="w3-bar-item w3-button ">Blackletter Calligraphy</a>
+                    </div>
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Modern Calligraphy styles" style="letter-spacing:4px;">Modern Calligraphy</button>
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                        <a href="brush.html" class="w3-bar-item w3-button">Brush Calligraphy</a>
+                        <a href="bouncy.html" class="w3-bar-item w3-button">Bounce Lettering</a>
+                        <a href="faux.html" class="w3-bar-item w3-button">Faux Calligraphy</a>
+                    </div>                  
+                </div>
+
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <button class="w3-padding-large w3-button button-hover" title="Resources" style="letter-spacing:4px;">Resources</button>     
+                    <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                      <a href="onlinefonts.html" class="w3-bar-item w3-button ">Online Fonts</a>
+                      <a href="#" class="w3-bar-item w3-button">Worksheets</a>
+                      <a href="gallery.html" class="w3-bar-item w3-button ">Gallery</a>
+                    </div>
+                </div>
+                
+                <div class="w3-dropdown-hover" style="letter-spacing:4px;">
+                    <a href="contact.html" class="w3-padding-large w3-button button-hover" title="Send a Feedback" style="letter-spacing:4px;">Contact Us</a>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="wrapper">
+        <!-- Header -->
+        <div id="backPlane" class="w3-display-container w3-content w3-wide">
+            <div id="title" class="w3-display-bottomleft w3-padding-large w3-opacity">
+                <h1>Worksheets</h1>
+            </div>
+        </div>
+
+        <div class="content">
+            <p>We all know learning without a guide is hard, so here are some printables that will help you in your calligraphy journey!<br><br>
+                <span class="num-mid"><mark>How to use?</mark></span> Click on the link below the picture of the template you want, and it will lead you to either a pdf page (for pdf documents), or a file download page (for zip files). Print em' out and you can trace on them for practicing! **For iPad users, you can just practice on the pdf documents<br><br>
+                Train that muscle memory ayee &#128170;
+            </p>
+        
+            <hr style="clear:both">           
+
+            <h4>Worksheets</h4>
+            <hr style="width:150px">
+            <p>There are templates for both traditional and modern calligraphy, feel free to try out other styles too!</p>            
+
+            <div class="text-align-center" > <!--To align all template cards-->
+                <!--row1-->
+                <div class="w3-card template-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/brush-basicStrokes.jpg" alt="Brush Pen basic strokes" style="width:100%" >
+                    </p></div>
+                </div>
+
+                <div class="w3-card template-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/Brush-Pen-Warm-Ups0002.jpg" alt="Brush Pen Warm Ups" style="width:100%" >
+                    </p></div>
+                </div>               
+
+                <div class="card-text">
+                    <h5 class="text-align-center"><i><a href="Worksheets/howjoyful-brush-basics-guide.pdf" class="w3-hover-text-blue" target="_blank">Brush Pen Basics - strokes</a></i></h5>
+                </div>
+                <div class="card-text">
+                    <h5 class="text-align-center"><i><a href="Worksheets/Brush-Pen-Warm-Ups-Loveleigh-Loops_Lettering-Daily.pdf" class="w3-hover-text-blue" target="_blank">Brush Pen - Warm up strokes</a></i></h5>
+                </div>
+                <br style="clear:both"><br>
+
+                <!--row2-->        
+                <div class="w3-card template-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/Small-brush-pen-practice-sheets-img.jpg" alt="Brush Pen Practice Sheets" style="margin-top: -80px; width:100%">
+                    </p></div>
+                </div>
+
+                <div class="w3-card template-card" id="blackletter-temp">
+                    <!-- <h6>Pentel - Touch Brush Sign Pen</h6><br style="display:block; content:''; margin-top: 40px;"> -->
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/blackletter-tempPG2.jpg" alt="Blackletter Pg2" style="width:100%" >
+                    </p></div>
+                </div>
+        
+                <div class="card-text">
+                    <h5 class="text-align-center"><i><a href="Worksheets/Modern-Calligraphy(lettering-daily).zip" class="w3-hover-text-blue" target="_blank">Modern Calligraphy - Alphabet (based on alphabet types)</a></i></h5>
+                </div>
+                <div class="card-text">
+                    <h5 class="text-align-center"><i><a href="Worksheets/Blackletter-calligraphy-practice-sheet_Lettering-Daily.zip" class="w3-hover-text-blue" target="_blank">Blackletter - Alphabets</a></i></h5>
+                </div>
+                <br style="clear:both"><br>
+
+                <!--row3-->
+                <div class="w3-card template-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/Letterforms_page-0001.jpg" alt="Dip Pen Letterforms" style="margin-top: -80px;width:100%">
+                    </p></div>
+                </div>
+        
+                <div class="w3-card template-card" id="copp-temp">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/Copperplate-basic-strokes-prac.jpg" alt="Copperplate Calligraphy Practice Sheets" style="margin-top: -210px; width:100%">
+                    </p></div>
+                </div>
+
+                <div class="card-text">
+                    <h5 class="text-align-center"><i><a href="Worksheets/Dip-Pen-Calligraphy-Practice-Sheets.zip" class="w3-hover-text-blue" target="_blank">Dip Pen Calligraphy Practice Sheets</a></i></h5>
+                </div>
+                <div class="card-text">
+                    <h5 class="text-align-center"><i><a href="Worksheets/Copperplate-Practice-Sheets.zip" class="w3-hover-text-blue" target="_blank">Copperplate - Basic Strokes (include empty guide)</a></i></h5>
+                </div>
+                <br style="clear:both"><br>
+
+                <!--row4-->        
+                <div class="w3-card template-card" id="faux-temp">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/Faux-Calli-Worksheet-img.jpg" alt="Faux Calligraphy Practice Sheets" style="margin-top: -30px; width:100%">
+                    </p></div>
+                </div>
+
+                <div class="w3-card template-card">
+                    <div class="crop-image"><p class="text-align-center">
+                        <img src="Images/font-based-pg3.jpg" alt="Font Based Template" style="margin-top: -70px; width:100%">
+                    </p></div>
+                </div>
+        
+                <div class="card-text">
+                    <h5 class="text-align-center"><i><a href="Worksheets/Fake(faux)-calligraphy-practice-sheets_Lettering-Daily.zip" class="w3-hover-text-blue" target="_blank">Faux Calligraphy (Uppercase + Lowercase + Empty Sheet)</a></i></h5>
+                </div>
+                <div class="card-text">
+                    <h5 class="text-align-center"><i><a href="Worksheets/worksheets-font-based-howjoyful.pdf" class="w3-hover-text-blue" target="_blank"> Multiple fonts - Alphabets (consists of multiple font types, 1 font per page)</a></i></h5>
+                </div>
+                <br style="clear:both"><br>
+
+            </div>
+        </div>         
+
+    </div>
+
+    <br style="clear:both"><br>
+    <!--marking the end of the page-->
+    <p class="w3-opacity; text-align-center">        ---------*  &#128150;  &#128396; *----------    </p>
+
+    <!-- Footer -->
+    <footer class="w3-center w3-light-grey w3-padding-large">
+        <p>@ Call1_graphy 2022</p>
+    </footer>
+    
+    
+</body>
+</html>
